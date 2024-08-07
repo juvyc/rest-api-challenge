@@ -10,16 +10,17 @@ Set the database details with correct details you have, like below:
 
 Run
 
--- php bin/console doctrine:database:create
+<code>php bin/console doctrine:database:create</code>
 
--- php bin/console make:migration
+<code>php bin/console make:migration</code>
 
--- php bin/console doctrine:migrations:migrate
+<code>php bin/console doctrine:migrations:migrate</code>
 
--- php bin/console app:customer-import --numpages 6
+<code>php bin/console app:customer-import --numpages 6</code>
 
 
 REST API POINTS
--- /customers (will show all data under customers)
 
--- /customers/{id} (will show data of a certain customer)
+<code>/customers (will show all data under customers)</code>
+
+<code>/customers/{id} (will show data of a certain customer)</code>
