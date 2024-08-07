@@ -8,7 +8,7 @@ Set the database details with correct details you have, like below:
 
 <code>DATABASE_URL="mysql://127.0.0.1:3306/rest_api_challenge"</code>
 
-Run
+Run Commands (On root folder)
 
 <code>php bin/console doctrine:database:create</code>
 
